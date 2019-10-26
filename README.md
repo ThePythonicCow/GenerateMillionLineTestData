@@ -44,9 +44,9 @@ the output of the compiled ran_len_line_gen into the input of foo:
   ```./ran_len_line_gen | foo```
 
 ### Command line option
-Currently this command has one command line option, to change
-the number of lines output, from the default one million, to
-whatever positive number of lines you need.
+Currently this command has one command line option, ```-n number```,
+to change the number of lines output, from the default one million,
+to whatever positive number of lines you need.
 
 ### Example output
 
