@@ -69,7 +69,8 @@ GHIJKLMNOPQRS
 TUVW
 XYZab
 cdefABCDE
-FGHIJKLMNOPQR```
+FGHIJKLMNOPQR
+```
 
 ## How to test:
 The quite predictable default million line output has a sha256 sum of:
