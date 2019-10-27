@@ -236,8 +236,8 @@ int main(int argc, char **argv)
      * M. E. O'Neill reports that these two magic numbers provide good
      * statistical results from PCG.  Since we're (this command is)
      * all about repeatable test case generation, we just hard code
-     * these two, and the dice roll where they will ... the same way
-     * every time :).
+     * these two, and let the dice roll where they will ... the same
+     * way every time :).
      */
 
     pcg32_srandom_r(&rng, 0x853c49e6748fea9bULL, 0xda3e39cb94b95bdbULL);
