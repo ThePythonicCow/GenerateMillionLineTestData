@@ -62,7 +62,7 @@
  *
  * As of Oct 2019, compiles cleanly using gcc on Linux with:
  *
- *    cc -fwhole-program -march=native -I../include -O3 -Wall -pedantic -Werror -o ran_len_line_gen ran_len_line_gen.c
+ *    cc -fwhole-program -march=native -O3 -Wall -pedantic -Werror -o ran_len_line_gen ran_len_line_gen.c
  *
  * Paul Jackson
  * pj@usa.net
