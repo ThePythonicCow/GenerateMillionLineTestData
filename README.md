@@ -33,7 +33,7 @@ Minimal simple compile command:
   
 Fancy optimized compile command:
 
-```gcc -fwhole-program -march=native -I../include -O3 -Wall -pedantic -Werror -o ran_len_line_gen ran_len_line_gen.c```
+```gcc -fwhole-program -march=native -O3 -Wall -pedantic -Werror -o ran_len_line_gen ran_len_line_gen.c```
  
 ### Running the command
 Then you can use this program to feed a million lines of test
