@@ -69,7 +69,7 @@ Running the command:
 
 at a shell prompt will produce the output:
 
-  ```
+```
 AB
 CDEFGHIJK
 LMNOPQRSTUV
