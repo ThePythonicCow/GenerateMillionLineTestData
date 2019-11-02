@@ -1,3 +1,12 @@
+[[
+    **This repository is archived.**
+
+    This code is now maintained as the `tests/random_line_generator.c`
+    code in the https://github.com/ThePythonicCow/rawscan repository.
+
+    -- Paul Jackson, pj@usa.net, 2 Nov 2019
+]]
+
 # GenerateMillionLineTestData
 Efficiently generate one million short random ASCII lines of text data
 
@@ -30,11 +39,11 @@ Download it, and compile it.
 Minimal simple compile command:
 
   ```gcc -o ran_len_line_gen ran_len_line_gen.c```
-  
+
 Fancy optimized compile command:
 
 ```gcc -fwhole-program -march=native -O3 -Wall -pedantic -Werror -o ran_len_line_gen ran_len_line_gen.c```
- 
+
 ### Running the command
 Then you can use this program to feed a million lines of test
 data into some other program. For example, to test how a command
@@ -57,7 +66,7 @@ ten lines will be.
 Running the command:
 
   ```./ran_len_line_gen -n 10```
-  
+
 at a shell prompt will produce the output:
 
   ```
